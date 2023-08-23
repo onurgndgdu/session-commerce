@@ -3,10 +3,10 @@ package com.onurgundogdu.sessioncommerce.controller;
 
 import com.onurgundogdu.sessioncommerce.model.Product;
 import com.onurgundogdu.sessioncommerce.repository.ProductRepository;
-import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
 
